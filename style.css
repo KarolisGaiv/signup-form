@@ -1,7 +1,42 @@
+:root {
+  --primary-red: hsl(0, 100%, 74%);
+  --primary-green: hsl(154, 59%, 51%);
+  --accent-blue: hsl(248, 32%, 49%);
+  --neutral-darkBlue: hsl(249, 10%, 26%);
+  --neutral-grayishBlue: hsl(246, 25%, 77%);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: hsl(0, 100%, 74%) ;
+  background-image: url("./images/bg-intro-mobile.png");
+  display: flex;
+  flex-direction: column;
+  font-family: 'Manrope', sans-serif;
+  font-size: 16px;
+  min-height: 100vh;
+  text-align: center;
+}
+
+.site-header {
+  color: white;
+  font-weight: 700;
+}
+
+
+.site-footer {
+  margin-top: auto;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
   }
-  .attribution a {
+.attribution a {
     color: hsl(228, 45%, 44%);
   }
