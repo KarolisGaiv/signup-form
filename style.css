@@ -40,6 +40,19 @@ body {
   margin: 1rem 0;
 }
 
+.container {
+  border: 1px solid  transparent;
+  border-radius: 5px;
+  box-shadow: 0 8px rgb(0 0 0 / 15%);
+  margin: 1em 0;
+}
+
+.pricing {
+  background: var(--accent-blue);
+  color: white;
+  font-size: 15px;
+  padding: 1em 4em;
+}
 
 .site-footer {
   margin-top: auto;
