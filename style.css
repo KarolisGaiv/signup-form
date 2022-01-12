@@ -54,6 +54,11 @@ body {
   padding: 1em 4em;
 }
 
+.form-wrapper {
+  background: white;
+  padding: 1em;
+}
+
 .form {
   display: flex;
   flex-direction: column;
