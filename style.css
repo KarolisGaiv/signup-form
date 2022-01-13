@@ -13,7 +13,7 @@
 }
 
 body {
-  background: hsl(0, 100%, 74%) ;
+  background: var(--primary-red);
   background-image: url("./images/bg-intro-mobile.png");
   display: flex;
   flex-direction: column;
@@ -117,9 +117,17 @@ input {
 }
 
 .attribution {
-    font-size: 11px;
-    text-align: center;
-  }
+  font-size: 11px;
+  text-align: center;
+}
 .attribution a {
-    color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1024px) {
+  body {
+    background-image: url("./images/bg-intro-desktop.png");
+    display: flex;
+    flex-direction: row;
   }
+}
