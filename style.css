@@ -46,13 +46,15 @@ body {
   border: none;
   border-radius: 10px;
   box-shadow: 0 8px 0 rgba(0, 0, 0, 0.14688);
+  margin-bottom: 1.5rem;
 }
 
 .pricing {
   background: var(--accent-blue);
   color: white;
   font-size: 15px;
-  padding: 1em 4em;
+  line-height: 26px;
+  padding: 18px 66px;
 }
 
 .form-wrapper {
