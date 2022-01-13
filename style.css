@@ -44,9 +44,8 @@ body {
 
 .container {
   border: 1px solid  transparent;
-  border-radius: 5px;
-  box-shadow: 0 8px rgb(0 0 0 / 15%);
-  margin: 1em 0;
+  border-radius: 10px;
+  box-shadow: 0 8px 0 rgba(0, 0, 0, 0.14688);
 }
 
 .pricing {
