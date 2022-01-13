@@ -59,7 +59,6 @@ body {
 .form-wrapper {
   background: white;
   padding: 1.5rem;
-  margin-bottom: 4rem;
 }
 
 .form {
@@ -97,7 +96,20 @@ input {
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 1px;
+  margin-bottom: 1rem;
   padding: 1rem 2.5rem;
+}
+
+.conditions {
+  color: var(--neutral-grayishBlue);
+  font-size: 11px;
+  line-height: 21px;
+  margin-inline: 1rem;
+}
+
+.accentText {
+  color: var(--primary-red);
+  font-weight: bold;
 }
 
 .site-footer {
