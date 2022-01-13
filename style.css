@@ -31,8 +31,8 @@ body {
 }
 
 .site-header p {
-  font-weight: 400;
-  padding: 10px;
+  font-weight: 500;
+  line-height: 26px;
 }
 
 .title {
