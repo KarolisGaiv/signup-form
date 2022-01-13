@@ -87,6 +87,19 @@ input {
   width: 1px;
 }
 
+.submitBtn {
+  background: var(--primary-green);
+  border: none;
+  border-radius: 5px;
+  box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
+  color: white;
+  font-family: inherit;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 1rem 2.5rem;
+}
+
 .site-footer {
   margin-top: auto;
 }
