@@ -126,8 +126,17 @@ input {
 
 @media (min-width: 1024px) {
   body {
+    align-items: center;
     background-image: url("./images/bg-intro-desktop.png");
     display: flex;
     flex-direction: row;
+    padding: 0 100px;
   }
+
+  .title {
+    font-size: 50px;
+    font-weight: bold;
+    line-height: 55px;
+  }
+
 }
