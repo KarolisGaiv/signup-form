@@ -112,25 +112,20 @@ input {
   font-weight: bold;
 }
 
-.site-footer {
-  margin-top: auto;
-}
-
-.attribution {
-  font-size: 11px;
-  text-align: center;
-}
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
 @media (min-width: 1024px) {
   body {
     align-items: center;
     background-image: url("./images/bg-intro-desktop.png");
     display: flex;
     flex-direction: row;
-    padding: 0 100px;
+    padding: 0 8rem;
+  }
+
+  .site-header {
+    text-align: initial;
+    margin-right: 2rem;
+    padding-right: 1rem;
+    width: 100%;
   }
 
   .title {
@@ -139,4 +134,7 @@ input {
     line-height: 55px;
   }
 
+  .content {
+    width: 100%;
+  }
 }
