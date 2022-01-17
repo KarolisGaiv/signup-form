@@ -117,6 +117,10 @@ input:focus {
   margin-inline: 1rem;
 }
 
+.error {
+  border: 2px solid hsla(0, 100%, 74%, 1);
+}
+
 .accentText {
   color: var(--primary-red);
   font-weight: bold;
