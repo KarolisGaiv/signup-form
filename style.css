@@ -69,10 +69,15 @@ body {
 input {
   border: 1px solid #DEDEDE;
   border-radius: 5px;
+  cursor: pointer;
   font-size: 14px;
   font-weight: 600;
   margin-bottom: 1rem;
   padding: 15px 20px;
+}
+
+input:focus {
+  outline-color: var(--accent-blue);
 }
 
 .visuallyhidden {
@@ -92,12 +97,17 @@ input {
   border-radius: 5px;
   box-shadow: inset 0px -4px 0px rgba(0, 0, 0, 0.0908818);
   color: white;
+  cursor: pointer;
   font-family: inherit;
   font-size: 15px;
   font-weight: 600;
   letter-spacing: 1px;
   margin-bottom: 1rem;
   padding: 1rem 2.5rem;
+}
+
+.submitBtn:hover {
+  background: hsla(154, 65%, 68%, 1);
 }
 
 .conditions {
