@@ -66,18 +66,17 @@ body {
   flex-direction: column;
 }
 
-input {
-  border: 1px solid #DEDEDE;
-  border-radius: 5px;
-  cursor: pointer;
-  font-size: 14px;
-  font-weight: 600;
+.field-wrapper {
+  display: flex;
+  flex-direction: column;
   margin-bottom: 1rem;
-  padding: 15px 20px;
 }
 
-input:focus {
-  outline-color: var(--accent-blue);
+.field-wrapper span {
+  color: var(--primary-red);
+  font-size: 11px;
+  font-style: italic;
+  text-align: right;
 }
 
 .visuallyhidden {
@@ -89,6 +88,27 @@ input:focus {
   padding: 0;
   position: absolute;
   width: 1px;
+}
+
+input {
+  border: 1px solid #DEDEDE;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 15px 20px;
+}
+
+input:focus {
+  outline-color: var(--accent-blue);
+}
+
+.error {
+  background-image: url("./images/icon-error.svg");
+  background-repeat: no-repeat;
+  background-position: right 1rem bottom 50%; 
+  border: 2px solid var(--primary-red);
+  color: var(--primary-red);
 }
 
 .submitBtn {
@@ -117,14 +137,11 @@ input:focus {
   margin-inline: 1rem;
 }
 
-.error {
-  border: 2px solid hsla(0, 100%, 74%, 1);
-}
-
 .accentText {
   color: var(--primary-red);
   font-weight: bold;
 }
+
 
 @media (min-width: 1024px) {
   body {
@@ -150,5 +167,9 @@ input:focus {
 
   .content {
     width: 100%;
+  }
+
+  .form-wrapper {
+    padding: 2.5rem;
   }
 }

@@ -30,38 +30,50 @@
       </div>
       <div class="container form-wrapper">
         <form class="form">
-          <label for="firstName" class="visuallyhidden">First Name</label>
-          <input
-            type="text"
-            name="firstName"
-            id="firstName"
-            placeholder="First Name"
-          />
-          <div class="fNameErr"></div>
-          <label for="lastName" class="visuallyhidden">Last Name</label>
-          <input
-            type="text"
-            name="lastName"
-            id="lastName"
-            placeholder="Last Name"
-          />
-          <div class="lNameErr"></div>
-          <label for="email" class="visuallyhidden">Email Address</label>
-          <input
-            type="email"
-            name="email"
-            id="email"
-            placeholder="Email Address"
-          />
-          <div class="emailErr"></div>
-          <label for="password" class="visuallyhidden">Password</label>
-          <input
-            type="password"
-            name="password"
-            id="password"
-            placeholder="Password"
-          />
-          <div class="passErr"></div>
+          <div class="field-wrapper">
+            <label for="firstName" class="visuallyhidden">First Name</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              placeholder="First Name"
+              maxlength="25"
+            />
+            <span class="fNameErr"></span>
+          </div>
+          <div class="field-wrapper">
+            <label for="lastName" class="visuallyhidden">Last Name</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              placeholder="Last Name"
+              maxlength="25"
+            />
+            <span class="lNameErr"></span>
+          </div>
+          <div class="field-wrapper">
+            <label for="email" class="visuallyhidden">Email Address</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Email Address"
+              maxlength="20"
+            />
+            <span class="emailErr"></span>
+          </div>
+          <div class="field-wrapper">
+            <label for="password" class="visuallyhidden">Password</label>
+            <input
+              type="password"
+              name="password"
+              id="password"
+              placeholder="Password"
+              maxlength="12"
+            />
+            <span class="passErr"></span>
+          </div>
           <button class="submitBtn" type="submit" value="CLAIM YOUR FREE TRIAL">
             CLAIM YOUR FREE TRIAL
           </button>
